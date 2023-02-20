@@ -1,5 +1,3 @@
-console.log('from javascript file');
-
 // HTML elements
 const form = document.querySelector('form');
 const input = document.querySelector('input');
