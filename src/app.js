@@ -19,7 +19,6 @@ app.use(express.static(public));
 // ---------------------------
 // --------- ROUTES ----------
 // ---------------------------
-
 app.get('/', (req, res) => {
   console.log(req.query);
   res.render('index', {
