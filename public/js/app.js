@@ -11,7 +11,7 @@ form.addEventListener('submit', (e) => {
   h2.textContent = 'loading';
   p.textContent = '';
   e.preventDefault();
-  fetch(`http://localhost:3000/weather?address=${input.value}`)
+  fetch(`/weather?address=${input.value}`)
     .then((res) => res.json())
     .then((data) => {
       h2.textContent = data.location;
